@@ -29,7 +29,7 @@ LuakitPod
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.public_header_files = "include/*"
+  s.public_header_files = "include"
   s.vendored_libraries  = 'lib/*.a'
   s.libraries  = 'stdc++','z'
   
