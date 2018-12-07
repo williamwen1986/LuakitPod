@@ -8,11 +8,7 @@
 #include "ref_counted.h"
 
 // See comments for the similar block in thread_checker.h.
-#if (!defined(NDEBUG) || defined(DCHECK_ALWAYS_ON))
-#define ENABLE_SEQUENCE_CHECKER 1
-#else
 #define ENABLE_SEQUENCE_CHECKER 0
-#endif
 
 #if ENABLE_SEQUENCE_CHECKER
 #include "sequence_checker_impl.h"
