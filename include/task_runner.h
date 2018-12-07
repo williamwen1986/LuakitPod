@@ -9,7 +9,7 @@
 #include "basictypes.h"
 #include "callback_forward.h"
 #include "ref_counted.h"
-#include "time.h"
+#include "base_time.h"
 
 namespace tracked_objects {
 class Location;
