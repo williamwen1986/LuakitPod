@@ -145,7 +145,7 @@
 
 #include "basictypes.h"
 #include "callback.h"
-#include "memory/weak_ptr.h"
+#include "weak_ptr.h"
 #include "template_util.h"
 
 namespace base {
