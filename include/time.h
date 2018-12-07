@@ -310,8 +310,8 @@ class BASE_EXPORT Time {
 #endif
 
 #if defined(OS_MACOSX)
-  static Time FromCFAbsoluteTime(CFAbsoluteTime t);
-  CFAbsoluteTime ToCFAbsoluteTime() const;
+  static Time FromCFAbsoluteTime(double t);
+  double ToCFAbsoluteTime() const;
 #endif
 
 #if defined(OS_WIN)
