@@ -10,9 +10,9 @@
 #ifndef BASE_CALLBACK_H_
 #define BASE_CALLBACK_H_
 
-#include "base/callback_forward.h"
-#include "base/callback_internal.h"
-#include "base/template_util.h"
+#include "callback_forward.h"
+#include "callback_internal.h"
+#include "template_util.h"
 
 // NOTE: Header files that do not require the full definition of Callback or
 // Closure should #include "base/callback_forward.h" instead of this file.

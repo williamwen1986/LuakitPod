@@ -7,8 +7,8 @@
 
 #include <string>
 
-#include "base/base_export.h"
-#include "base/basictypes.h"
+#include "base_export.h"
+#include "basictypes.h"
 
 namespace tracked_objects {
 

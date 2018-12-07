@@ -10,8 +10,8 @@
 #ifndef BASE_BIND_H_
 #define BASE_BIND_H_
 
-#include "base/bind_internal.h"
-#include "base/callback_internal.h"
+#include "bind_internal.h"
+#include "callback_internal.h"
 
 // -----------------------------------------------------------------------------
 // Usage documentation
